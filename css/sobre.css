@@ -4,55 +4,46 @@ body{
     text-align: center;
     color: white;
 }
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin-top: 5%;
-}
 
-.inputSubmit:hover{
-   
-    background-color: dodgerblue;
-    cursor: pointer;
-}
 
-#telaLogin {
+#telaSobre {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.8);
     padding: 30px;
     border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
-a {
+.sair {
+    position: absolute;
     text-decoration: none;
     color: white;
     border: 3px solid dodgerblue;
+    background-color: rgba(0, 0, 0, 0.8);
     border-radius: 10px;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.8);
+    left: 85%;
+    top: 65%;
+    
     
 }
 
-a:hover {
-    background-color: dodgerblue;
+.sair:hover {
+    background-color: rgba(83, 161, 238, 0.692);
     color: white;
 }
 
 .mb-3 {
-    text-align: left;
+    font-size: 35px;
+    background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
 
-.form-control {
-    text-align: center;
-}
 
-.sobre {
-    position: absolute;
-    top: 85%;
-    left: 85%;   
-}
 
 
